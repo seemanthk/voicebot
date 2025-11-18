@@ -1,0 +1,19 @@
+# 🐍 Python Specific
+# Virtual environment folder
+venv/
+
+# Bytecode files
+__pycache__/
+*.pyc
+
+# IDE/Editor specific files (common for VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Environment file containing secrets (CRITICAL)
+.env
+
+# Build files
+*.egg-info/
+dist/
+build/
