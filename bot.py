@@ -18,6 +18,8 @@ from pipecat.runner.utils import parse_telephony_websocket
 from pipecat.serializers.exotel import ExotelFrameSerializer
 from pipecat.services.openai.llm import OpenAILLMService
 from pipecat.services.sarvam.stt import SarvamSTTService
+from pipecat.services.openai.stt import OpenAISTTService
+from pipecat.services.groq.stt import GroqSTTService
 from pipecat.services.sarvam.tts import SarvamTTSService
 from pipecat.transports.base_transport import BaseTransport
 from pipecat.transports.websocket.fastapi import (
@@ -94,10 +96,10 @@ async def run_bot(transport: BaseTransport, handle_sigint: bool, customer_name: 
         tool_choice="auto",
     )
 
-    stt = SarvamSTTService(
-        api_key=os.getenv("SARVAM_API_KEY"),
-        model="saarika:v2.5",
-        language_code="unknown",
+    stt = OpenAISTTService(
+        api_key=os.getenv("OPENAI_API_KEY"),
+        model="gpt-4o-transcribe",
+        prompt="Expect multilingual indian accent and indian languages.",
     )
 
     tts = SarvamTTSService(
