@@ -200,3 +200,72 @@
 2025-11-19 12:22:26.616 | INFO     | server:websocket_endpoint:179 - [WS] Finalizing websocket, state=CONNECTED
 2025-11-19 12:22:26.616 | INFO     | server:websocket_endpoint:181 - [WS] WebSocket still open, closing from server side...
 2025-11-19 12:22:26.616 | WARNING  | server:websocket_endpoint:186 - [WS] Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-11-19 12:26:05.793 | INFO     | server:initiate_outbound_call:101 - Received outbound call request
+2025-11-19 12:26:05.793 | INFO     | server:initiate_outbound_call:116 - Processing outbound call to +918919568249, customer_name='Manoj'
+2025-11-19 12:26:05.794 | INFO     | server:make_exotel_call:57 - [EXOTEL] Sending CustomField with customer_name='Manoj'
+2025-11-19 12:26:06.332 | INFO     | server:make_exotel_call:76 - [EXOTEL] Outbound call initiated. Exotel Sid=61a7a10fa96534b81250b16be2ad19bj
+2025-11-19 12:26:06.332 | INFO     | server:initiate_outbound_call:126 - make_exotel_call returned call_sid=61a7a10fa96534b81250b16be2ad19bj
+2025-11-19 12:26:06.332 | INFO     | server:initiate_outbound_call:135 - [CALL_MEMORY] Stored outbound call context for phone=+918919568249, customer_name='Manoj'
+2025-11-19 12:26:11.191 | INFO     | server:websocket_endpoint:164 - WebSocket connection accepted for outbound call
+2025-11-19 12:26:11.194 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 12:26:11.802 | INFO     | bot:bot:291 - [CALL_MEMORY] Using outbound call context from memory: phone_number='+918919568249', customer_name='Manoj'
+2025-11-19 12:26:11.828 | INFO     | bot:bot:299 - Auto-detected transport: exotel
+2025-11-19 12:26:11.828 | INFO     | bot:bot:300 - Call data from Exotel: {'stream_id': 'f6f1c2e21b60305882d46308563219bj', 'call_id': '8e92324947573f70bfb156199cbc19bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 12:26:11.875 | INFO     | bot:goodbye_watcher:228 - [WATCHER] Goodbye watcher started.
+2025-11-19 12:26:11.875 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: ''
+2025-11-19 12:26:11.879 | INFO     | bot:on_client_connected:216 - Call connected with customer: Manoj. Waiting for user to speak first...
+2025-11-19 12:26:12.001 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 12:26:33.662 | INFO     | bot:on_client_disconnected:223 - Client disconnected, cancelling task.
+2025-11-19 12:26:33.717 | INFO     | bot:run_bot:279 - PipelineRunner finished for this call.
+2025-11-19 12:26:33.717 | INFO     | server:websocket_endpoint:179 - [WS] Finalizing websocket, state=DISCONNECTED
+2025-11-19 12:26:33.717 | INFO     | server:websocket_endpoint:184 - [WS] WebSocket already disconnected, nothing to close.
+2025-11-19 12:26:33.883 | INFO     | bot:goodbye_watcher:273 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 12:26:58.250 | INFO     | server:initiate_outbound_call:101 - Received outbound call request
+2025-11-19 12:26:58.250 | INFO     | server:initiate_outbound_call:116 - Processing outbound call to +918919568249, customer_name='Manoj'
+2025-11-19 12:26:58.250 | INFO     | server:make_exotel_call:57 - [EXOTEL] Sending CustomField with customer_name='Manoj'
+2025-11-19 12:26:58.948 | INFO     | server:make_exotel_call:76 - [EXOTEL] Outbound call initiated. Exotel Sid=b8bb700d527063cf77a4206f38d319bj
+2025-11-19 12:26:58.948 | INFO     | server:initiate_outbound_call:126 - make_exotel_call returned call_sid=b8bb700d527063cf77a4206f38d319bj
+2025-11-19 12:26:58.948 | INFO     | server:initiate_outbound_call:135 - [CALL_MEMORY] Stored outbound call context for phone=+918919568249, customer_name='Manoj'
+2025-11-19 12:27:40.335 | INFO     | server:initiate_outbound_call:101 - Received outbound call request
+2025-11-19 12:27:40.335 | INFO     | server:initiate_outbound_call:116 - Processing outbound call to +918919568249, customer_name='Manoj'
+2025-11-19 12:27:40.335 | INFO     | server:make_exotel_call:57 - [EXOTEL] Sending CustomField with customer_name='Manoj'
+2025-11-19 12:27:40.978 | INFO     | server:make_exotel_call:76 - [EXOTEL] Outbound call initiated. Exotel Sid=ca8e2c4207b0b24556bee900109b19bj
+2025-11-19 12:27:40.978 | INFO     | server:initiate_outbound_call:126 - make_exotel_call returned call_sid=ca8e2c4207b0b24556bee900109b19bj
+2025-11-19 12:27:40.978 | INFO     | server:initiate_outbound_call:135 - [CALL_MEMORY] Stored outbound call context for phone=+918919568249, customer_name='Manoj'
+2025-11-19 12:27:43.826 | INFO     | server:websocket_endpoint:164 - WebSocket connection accepted for outbound call
+2025-11-19 12:27:43.829 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 12:27:44.453 | INFO     | bot:bot:291 - [CALL_MEMORY] Using outbound call context from memory: phone_number='+918919568249', customer_name='Manoj'
+2025-11-19 12:27:44.480 | INFO     | bot:bot:299 - Auto-detected transport: exotel
+2025-11-19 12:27:44.480 | INFO     | bot:bot:300 - Call data from Exotel: {'stream_id': '5aa258d99146146f6188ae21d67f19bj', 'call_id': '9d5225ec893867e9e562071c3e8319bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 12:27:44.529 | INFO     | bot:goodbye_watcher:228 - [WATCHER] Goodbye watcher started.
+2025-11-19 12:27:44.529 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: ''
+2025-11-19 12:27:44.533 | INFO     | bot:on_client_connected:216 - Call connected with customer: Manoj. Waiting for user to speak first...
+2025-11-19 12:27:44.658 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 12:27:55.534 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: ''
+2025-11-19 12:27:57.036 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Hello, am I speaking with Manoj?'
+2025-11-19 12:28:01.538 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Hello, am I speaking with Manoj?'
+2025-11-19 12:28:02.538 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Nice to speak with you, Manoj.  Would you be interested in hearing about our loan options?'
+2025-11-19 12:28:11.040 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Nice to speak with you, Manoj.  Would you be interested in hearing about our loan options?'
+2025-11-19 12:28:16.041 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'ठीक है।  आपको कौन सा लोन चाहिए – पर्सनल लोन या होम लोन?'
+2025-11-19 12:28:24.044 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'ठीक है।  आपको कौन सा लोन चाहिए – पर्सनल लोन या होम लोन?'
+2025-11-19 12:28:25.045 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'ठीक है।  लगभग कितना लोन अमाउंट चाहिए?'
+2025-11-19 12:28:32.048 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'ठीक है।  लगभग कितना लोन अमाउंट चाहिए?'
+2025-11-19 12:28:33.548 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Okay, got it.  What is your approximate monthly income?'
+2025-11-19 12:28:40.549 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Okay, got it.  What is your approximate monthly income?'
+2025-11-19 12:28:41.050 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Thank you.  Are you salaried or self-employed?'
+2025-11-19 12:28:48.050 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Thank you.  Are you salaried or self-employed?'
+2025-11-19 12:28:49.049 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Okay, got it.  So you want a personal loan of 5 lakh, income around 45,000 per month, and you are salaried.  Is that correct?'
+2025-11-19 12:29:00.052 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Okay, got it.  So you want a personal loan of 5 lakh, income around 45,000 per month, and you are salaried.  Is that correct?'
+2025-11-19 12:29:01.553 | INFO     | bot:goodbye_watcher:247 - [WATCHER] Last assistant message: 'Perfect.  Our team will review your details and call you back with suitable loan options.  Thank you for your time.  Goodbye.'
+2025-11-19 12:29:01.553 | INFO     | bot:goodbye_watcher:260 - [WATCHER] GOODBYE_RE matched assistant text.
+2025-11-19 12:29:01.553 | INFO     | bot:goodbye_watcher:263 - [WATCHER] Triggering _do_end with reason=customer_goodbye
+2025-11-19 12:29:01.553 | INFO     | bot:_do_end:182 - [_do_end] Bot is ending call. Reason: customer_goodbye
+2025-11-19 12:29:02.054 | INFO     | bot:_do_end:185 - [_do_end] Queuing EndFrame...
+2025-11-19 12:29:02.054 | INFO     | bot:_do_end:187 - [_do_end] EndFrame queued successfully.
+2025-11-19 12:29:02.054 | INFO     | bot:_do_end:191 - [_do_end] Cancelling PipelineTask...
+2025-11-19 12:29:02.055 | INFO     | bot:_do_end:194 - [_do_end] PipelineTask cancelled.
+2025-11-19 12:29:02.055 | INFO     | bot:goodbye_watcher:273 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 12:29:28.900 | INFO     | bot:run_bot:279 - PipelineRunner finished for this call.
+2025-11-19 12:29:28.900 | INFO     | server:websocket_endpoint:179 - [WS] Finalizing websocket, state=CONNECTED
+2025-11-19 12:29:28.901 | INFO     | server:websocket_endpoint:181 - [WS] WebSocket still open, closing from server side...
+2025-11-19 12:29:28.901 | WARNING  | server:websocket_endpoint:186 - [WS] Error closing WebSocket: Cannot call "send" once a close message has been sent.
