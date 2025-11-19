@@ -1,0 +1,202 @@
+2025-11-19 11:16:11.293 | INFO     | server:initiate_outbound_call:111 - Received outbound call request
+2025-11-19 11:16:11.294 | INFO     | server:initiate_outbound_call:131 - Processing outbound call to +918919568249, customer: Seemanth
+2025-11-19 11:16:12.398 | INFO     | server:initiate_outbound_call:147 - Stored customer name 'Seemanth' for call 92f1751476d6697c2c26324add1b19bj
+2025-11-19 11:16:15.379 | INFO     | server:websocket_endpoint:173 - WebSocket connection accepted for outbound call
+2025-11-19 11:16:15.382 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 11:16:16.049 | INFO     | bot:bot:306 - Auto-detected transport: exotel
+2025-11-19 11:16:16.049 | INFO     | bot:bot:307 - Call data from Exotel: {'stream_id': '6fd892f2388a6801fd3218708ecb19bj', 'call_id': 'a28d4d5f697d928f0740f689932619bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 11:16:16.097 | INFO     | bot:auto_hang_test:278 - [AUTO_TEST] Auto-hangup timer started (20s).
+2025-11-19 11:16:16.100 | INFO     | bot:on_client_connected:263 - Call connected with customer: Unknown. Waiting for user to speak first...
+2025-11-19 11:16:16.203 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 11:16:36.098 | INFO     | bot:auto_hang_test:280 - [AUTO_TEST] Auto-hangup timer firing, calling _do_end('test_auto_timeout').
+2025-11-19 11:16:36.098 | INFO     | bot:_do_end:214 - [_do_end] Bot is ending call. Reason: test_auto_timeout
+2025-11-19 11:16:36.598 | INFO     | bot:_do_end:219 - [_do_end] Queuing EndFrame...
+2025-11-19 11:16:36.598 | INFO     | bot:_do_end:222 - [_do_end] EndFrame queued successfully.
+2025-11-19 11:16:36.598 | INFO     | bot:_do_end:226 - [_do_end] Cancelling PipelineTask...
+2025-11-19 11:16:36.598 | INFO     | bot:_do_end:229 - [_do_end] PipelineTask cancelled.
+2025-11-19 11:16:36.598 | INFO     | bot:_hangup_exotel_call:194 - [_hangup_exotel_call] Hanging up Exotel call a28d4d5f697d928f0740f689932619bj with reason=test_auto_timeout
+2025-11-19 11:16:36.719 | INFO     | server:websocket_endpoint:191 - [WS] Finalizing websocket, state=CONNECTED
+2025-11-19 11:16:36.719 | INFO     | server:websocket_endpoint:193 - [WS] WebSocket still open, closing from server side...
+2025-11-19 11:16:36.719 | WARNING  | server:websocket_endpoint:198 - [WS] Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-11-19 11:16:36.873 | INFO     | bot:_hangup_exotel_call:204 - [_hangup_exotel_call] Exotel hangup status=200, body=<?xml version="1.0" encoding="UTF-8"?>
+<TwilioResponse>
+ <Message>Hangup Successful</Message>
+</TwilioResponse>
+
+2025-11-19 11:18:28.362 | INFO     | server:initiate_outbound_call:111 - Received outbound call request
+2025-11-19 11:18:28.362 | INFO     | server:initiate_outbound_call:131 - Processing outbound call to +918919568249, customer: Seemanth
+2025-11-19 11:18:29.052 | INFO     | server:initiate_outbound_call:147 - Stored customer name 'Seemanth' for call 221bcd03f861bd50a03ae668e60019bj
+2025-11-19 11:18:31.980 | INFO     | server:websocket_endpoint:173 - WebSocket connection accepted for outbound call
+2025-11-19 11:18:31.983 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 11:18:32.581 | INFO     | bot:bot:264 - Auto-detected transport: exotel
+2025-11-19 11:18:32.582 | INFO     | bot:bot:265 - Call data from Exotel: {'stream_id': 'cb59faad200c498b7f1a90435f9d19bj', 'call_id': '37e1471065991c9bebedd2c431d019bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 11:18:32.631 | WARNING  | pipecat.utils.base_object:add_event_handler:128 - Event handler on_bot_stopped_speaking not registered
+2025-11-19 11:18:32.635 | INFO     | bot:on_client_connected:205 - Call connected with customer: Unknown. Waiting for user to speak first...
+2025-11-19 11:18:32.741 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 11:19:11.589 | INFO     | bot:on_client_disconnected:213 - Client disconnected, cancelling task.
+2025-11-19 11:19:11.633 | INFO     | server:websocket_endpoint:191 - [WS] Finalizing websocket, state=DISCONNECTED
+2025-11-19 11:19:11.633 | INFO     | server:websocket_endpoint:196 - [WS] WebSocket already disconnected, nothing to close.
+2025-11-19 11:22:48.111 | INFO     | server:initiate_outbound_call:111 - Received outbound call request
+2025-11-19 11:22:48.111 | INFO     | server:initiate_outbound_call:131 - Processing outbound call to +918919568249, customer: Seemanth
+2025-11-19 11:22:48.930 | INFO     | server:initiate_outbound_call:147 - Stored customer name 'Seemanth' for call 07a8dc8ce51133d9d366ff4081b119bj
+2025-11-19 11:22:51.807 | INFO     | server:websocket_endpoint:173 - WebSocket connection accepted for outbound call
+2025-11-19 11:22:51.810 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 11:22:52.456 | INFO     | bot:bot:75 - Auto-detected transport: exotel
+2025-11-19 11:22:52.456 | INFO     | bot:bot:76 - Call data from Exotel: {'stream_id': '2088da7799d69b9dd4063a4bb64f19bj', 'call_id': 'c7e5251d33733e3787a487b01f3a19bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 11:22:52.504 | INFO     | bot:bot:328 - Starting PipelineRunner for this call...
+2025-11-19 11:22:52.504 | INFO     | bot:goodbye_watcher:276 - [WATCHER] Goodbye watcher started.
+2025-11-19 11:22:52.508 | INFO     | bot:on_client_connected:264 - Call connected with customer: Unknown. Waiting for user to speak first...
+2025-11-19 11:22:52.648 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 11:23:06.513 | INFO     | bot:goodbye_watcher:300 - [WATCHER] Last assistant message: "Hello!  This is Shruti from Digi Loans.  I'm calling to discuss some loan options.  May I know your name please?"
+2025-11-19 11:23:16.513 | INFO     | bot:goodbye_watcher:300 - [WATCHER] Last assistant message: "Hello!  This is Shruti from Digi Loans.  I'm calling to discuss some loan options.  May I know your name please?"
+2025-11-19 11:23:17.513 | INFO     | bot:goodbye_watcher:300 - [WATCHER] Last assistant message: 'Okay, thank you for your time.  Goodbye.'
+2025-11-19 11:23:17.513 | INFO     | bot:goodbye_watcher:315 - [WATCHER] GOODBYE_RE matched assistant text.
+2025-11-19 11:23:17.513 | INFO     | bot:goodbye_watcher:318 - [WATCHER] Triggering _do_end with reason=customer_goodbye
+2025-11-19 11:23:17.513 | INFO     | bot:_do_end:205 - [_do_end] Bot is ending call. Reason: customer_goodbye
+2025-11-19 11:23:18.013 | INFO     | bot:_do_end:210 - [_do_end] Queuing EndFrame...
+2025-11-19 11:23:18.013 | INFO     | bot:_do_end:213 - [_do_end] EndFrame queued successfully.
+2025-11-19 11:23:18.013 | INFO     | bot:_do_end:217 - [_do_end] Cancelling PipelineTask...
+2025-11-19 11:23:18.013 | INFO     | bot:_do_end:220 - [_do_end] PipelineTask cancelled.
+2025-11-19 11:23:18.013 | INFO     | bot:goodbye_watcher:322 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 11:23:30.389 | INFO     | bot:bot:330 - PipelineRunner finished for this call.
+2025-11-19 11:23:30.390 | INFO     | server:websocket_endpoint:191 - [WS] Finalizing websocket, state=CONNECTED
+2025-11-19 11:23:30.390 | INFO     | server:websocket_endpoint:193 - [WS] WebSocket still open, closing from server side...
+2025-11-19 11:23:30.390 | WARNING  | server:websocket_endpoint:198 - [WS] Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-11-19 11:33:36.740 | INFO     | server:initiate_outbound_call:131 - Received outbound call request
+2025-11-19 11:33:36.741 | INFO     | server:initiate_outbound_call:153 - Processing outbound call to +918919568249, customer: Seemanth
+2025-11-19 11:33:37.428 | INFO     | server:initiate_outbound_call:172 - Stored customer name 'Seemanth' for phone +918919568249 (normalized=8919568249), call_sid=cd5ac2bf8bc82c8c35ff3a51804419bj
+2025-11-19 11:33:40.194 | INFO     | server:websocket_endpoint:206 - WebSocket connection accepted for outbound call
+2025-11-19 11:33:40.205 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 11:33:40.862 | INFO     | bot:bot:293 - Auto-detected transport: exotel
+2025-11-19 11:33:40.862 | INFO     | bot:bot:294 - Call data from Exotel: {'stream_id': '10d3ab5bee47ab9f0db871e3075e19bj', 'call_id': 'db527a508c995d6e9eb3096298cf19bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 11:33:40.862 | INFO     | bot:bot:305 - [NAME_LOOKUP] call_data.from=07948518655 -> 7948518655, call_data.to=07948518655 -> 7948518655
+2025-11-19 11:33:40.862 | INFO     | bot:bot:309 - [NAME_LOOKUP] Known keys in customer_names_by_phone: ['8919568249']
+2025-11-19 11:33:40.916 | INFO     | bot:goodbye_watcher:233 - [WATCHER] Goodbye watcher started.
+2025-11-19 11:33:40.919 | INFO     | bot:on_client_connected:215 - Call connected with customer: Unknown. Waiting for user to speak first...
+2025-11-19 11:33:41.045 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 11:34:01.926 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'हैलो!  मैं श्रुति बोल रही हूं Digi Loans से।  मैं आपको loan options के बारे में बताना चाहती हूं।  आपका नाम क्या है?'
+2025-11-19 11:34:17.429 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'Nice to speak with you, Manish.  Would you be interested in hearing about our loan options?'
+2025-11-19 11:34:29.934 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'Great!  What type of loan are you looking for – personal loan or home loan?'
+2025-11-19 11:34:42.438 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'Okay, got it.  Approximately how much is your monthly income?'
+2025-11-19 11:34:50.941 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'Sure, no problem.  Just to confirm, what is your approximate monthly income?'
+2025-11-19 11:34:55.941 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'Understood.  Are you salaried or self-employed?'
+2025-11-19 11:35:05.443 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'I see, thank you.   So you want a personal loan of 50 lakhs, with an income around 2 lakhs per month, and you are self-employed.   Is that correct?'
+2025-11-19 11:35:18.947 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: 'Perfect.   Our team will review your details and call you back with suitable loan options.   Thank you for your time.   Goodbye.'
+2025-11-19 11:35:18.947 | INFO     | bot:goodbye_watcher:261 - [WATCHER] GOODBYE_RE matched assistant text.
+2025-11-19 11:35:18.947 | INFO     | bot:goodbye_watcher:264 - [WATCHER] Triggering _do_end with reason=customer_goodbye
+2025-11-19 11:35:18.947 | INFO     | bot:_do_end:171 - [_do_end] Bot is ending call. Reason: customer_goodbye
+2025-11-19 11:35:19.447 | INFO     | bot:_do_end:176 - [_do_end] Queuing EndFrame...
+2025-11-19 11:35:19.447 | INFO     | bot:_do_end:179 - [_do_end] EndFrame queued successfully.
+2025-11-19 11:35:19.448 | INFO     | bot:_do_end:183 - [_do_end] Cancelling PipelineTask...
+2025-11-19 11:35:19.448 | INFO     | bot:_do_end:186 - [_do_end] PipelineTask cancelled.
+2025-11-19 11:35:19.448 | INFO     | bot:goodbye_watcher:272 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 11:35:46.429 | INFO     | bot:run_bot:281 - PipelineRunner finished for this call.
+2025-11-19 11:35:46.429 | INFO     | server:websocket_endpoint:222 - [WS] Finalizing websocket, state=CONNECTED
+2025-11-19 11:35:46.429 | INFO     | server:websocket_endpoint:226 - [WS] WebSocket still open, closing from server side...
+2025-11-19 11:35:46.429 | WARNING  | server:websocket_endpoint:233 - [WS] Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-11-19 11:45:31.864 | INFO     | server:initiate_outbound_call:131 - Received outbound call request
+2025-11-19 11:45:31.864 | INFO     | server:initiate_outbound_call:153 - Processing outbound call to +918919568249, customer: Manoj
+2025-11-19 11:45:33.325 | INFO     | server:initiate_outbound_call:172 - Stored customer name 'Manoj' for phone +918919568249 (normalized=8919568249), call_sid=4250bbddf63330f4ef853909b78019bj
+2025-11-19 11:47:15.357 | INFO     | server:initiate_outbound_call:131 - Received outbound call request
+2025-11-19 11:47:15.357 | INFO     | server:initiate_outbound_call:153 - Processing outbound call to +918919568249, customer: Manoj
+2025-11-19 11:47:16.117 | INFO     | server:initiate_outbound_call:172 - Stored customer name 'Manoj' for phone +918919568249 (normalized=8919568249), call_sid=081c49d640830d90907af489291519bj
+2025-11-19 11:47:19.254 | INFO     | server:websocket_endpoint:206 - WebSocket connection accepted for outbound call
+2025-11-19 11:47:19.255 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 11:47:19.902 | INFO     | bot:bot:293 - Auto-detected transport: exotel
+2025-11-19 11:47:19.902 | INFO     | bot:bot:294 - Call data from Exotel: {'stream_id': '8c4d31b45d5549233e255808a6be19bj', 'call_id': 'bc4c120dff6768b4089d2321524719bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 11:47:19.903 | INFO     | bot:bot:305 - [NAME_LOOKUP] call_data.from=07948518655 -> 7948518655, call_data.to=07948518655 -> 7948518655
+2025-11-19 11:47:19.903 | INFO     | bot:bot:309 - [NAME_LOOKUP] Known keys in customer_names_by_phone: ['8919568249']
+2025-11-19 11:47:19.950 | INFO     | bot:goodbye_watcher:233 - [WATCHER] Goodbye watcher started.
+2025-11-19 11:47:19.954 | INFO     | bot:on_client_connected:215 - Call connected with customer: Unknown. Waiting for user to speak first...
+2025-11-19 11:47:20.104 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 11:47:51.107 | INFO     | bot:on_client_disconnected:222 - Client disconnected, cancelling task.
+2025-11-19 11:47:51.157 | INFO     | bot:run_bot:281 - PipelineRunner finished for this call.
+2025-11-19 11:47:51.157 | INFO     | server:websocket_endpoint:222 - [WS] Finalizing websocket, state=DISCONNECTED
+2025-11-19 11:47:51.157 | INFO     | server:websocket_endpoint:229 - [WS] WebSocket already disconnected, nothing to close.
+2025-11-19 11:47:51.458 | INFO     | bot:goodbye_watcher:272 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 11:54:58.129 | INFO     | server:initiate_outbound_call:131 - Received outbound call request
+2025-11-19 11:54:58.129 | INFO     | server:initiate_outbound_call:153 - Processing outbound call to +918919568249, customer: Manoj
+2025-11-19 11:54:58.821 | INFO     | server:initiate_outbound_call:172 - Stored customer name 'Manoj' for phone +918919568249 (normalized=8919568249), call_sid=d7240dbadeec06b93bd27a25ac5119bj
+2025-11-19 11:55:01.870 | INFO     | server:websocket_endpoint:206 - WebSocket connection accepted for outbound call
+2025-11-19 11:55:01.872 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 11:55:02.597 | INFO     | bot:bot:293 - Auto-detected transport: exotel
+2025-11-19 11:55:02.597 | INFO     | bot:bot:294 - Call data from Exotel: {'stream_id': '006e906d66ac3466a19d90a3976f19bj', 'call_id': '9b7a5ef7e45e601f5e45394e134919bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 11:55:02.597 | INFO     | bot:bot:305 - [NAME_LOOKUP] call_data.from=07948518655 -> 7948518655, call_data.to=07948518655 -> 7948518655
+2025-11-19 11:55:02.597 | INFO     | bot:bot:309 - [NAME_LOOKUP] Known keys in customer_names_by_phone: ['8919568249']
+2025-11-19 11:55:02.645 | INFO     | bot:goodbye_watcher:233 - [WATCHER] Goodbye watcher started.
+2025-11-19 11:55:02.648 | INFO     | bot:on_client_connected:215 - Call connected with customer: Unknown. Waiting for user to speak first...
+2025-11-19 11:55:02.765 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 11:55:16.647 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: "Hello!  This is Shruti from Digi Loans.  I'm calling to discuss some loan options.  May I know your name please?"
+2025-11-19 11:55:29.148 | INFO     | bot:goodbye_watcher:251 - [WATCHER] Last assistant message: "I'm sorry for the inconvenience.  Goodbye."
+2025-11-19 11:55:29.149 | INFO     | bot:goodbye_watcher:261 - [WATCHER] GOODBYE_RE matched assistant text.
+2025-11-19 11:55:29.149 | INFO     | bot:goodbye_watcher:264 - [WATCHER] Triggering _do_end with reason=customer_goodbye
+2025-11-19 11:55:29.149 | INFO     | bot:_do_end:171 - [_do_end] Bot is ending call. Reason: customer_goodbye
+2025-11-19 11:55:29.649 | INFO     | bot:_do_end:176 - [_do_end] Queuing EndFrame...
+2025-11-19 11:55:29.650 | INFO     | bot:_do_end:179 - [_do_end] EndFrame queued successfully.
+2025-11-19 11:55:29.650 | INFO     | bot:_do_end:183 - [_do_end] Cancelling PipelineTask...
+2025-11-19 11:55:29.651 | INFO     | bot:_do_end:186 - [_do_end] PipelineTask cancelled.
+2025-11-19 11:55:29.651 | INFO     | bot:goodbye_watcher:272 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 11:55:29.732 | INFO     | bot:run_bot:281 - PipelineRunner finished for this call.
+2025-11-19 11:55:29.732 | INFO     | server:websocket_endpoint:222 - [WS] Finalizing websocket, state=CONNECTED
+2025-11-19 11:55:29.732 | INFO     | server:websocket_endpoint:226 - [WS] WebSocket still open, closing from server side...
+2025-11-19 11:55:29.732 | WARNING  | server:websocket_endpoint:233 - [WS] Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-11-19 12:12:59.464 | INFO     | server:initiate_outbound_call:129 - Received outbound call request
+2025-11-19 12:12:59.465 | INFO     | server:initiate_outbound_call:149 - Processing outbound call to +918919568249, customer_name='Manoj'
+2025-11-19 12:12:59.465 | INFO     | server:make_exotel_call:77 - [EXOTEL] Sending CustomField with customer_name='Manoj'
+2025-11-19 12:13:00.274 | INFO     | server:make_exotel_call:99 - [EXOTEL] Outbound call initiated. Exotel Sid=8abccb8f7c26cde0d6b0126fe3b119bj
+2025-11-19 12:13:00.274 | INFO     | server:initiate_outbound_call:161 - make_exotel_call returned call_sid=8abccb8f7c26cde0d6b0126fe3b119bj
+2025-11-19 12:13:03.428 | INFO     | server:websocket_endpoint:187 - WebSocket connection accepted for outbound call
+2025-11-19 12:13:03.431 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 12:13:04.084 | INFO     | bot:bot:277 - Auto-detected transport: exotel
+2025-11-19 12:13:04.085 | INFO     | bot:bot:278 - Call data from Exotel: {'stream_id': '1acc043630c455cdca0e105952b919bj', 'call_id': 'd81e8c1601dee006dc0d67336c5f19bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 12:13:04.085 | INFO     | bot:bot:292 - [NAME_LOOKUP] No customer_name/CustomField found in custom_parameters; using 'Unknown'.
+2025-11-19 12:13:04.134 | INFO     | bot:goodbye_watcher:220 - [WATCHER] Goodbye watcher started.
+2025-11-19 12:13:04.134 | INFO     | bot:goodbye_watcher:239 - [WATCHER] Last assistant message: ''
+2025-11-19 12:13:04.138 | INFO     | bot:on_client_connected:207 - Call connected with customer: Unknown. Waiting for user to speak first...
+2025-11-19 12:13:04.300 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 12:13:39.460 | INFO     | bot:on_client_disconnected:214 - Client disconnected, cancelling task.
+2025-11-19 12:13:39.521 | INFO     | bot:run_bot:272 - PipelineRunner finished for this call.
+2025-11-19 12:13:39.521 | INFO     | server:websocket_endpoint:205 - [WS] Finalizing websocket, state=DISCONNECTED
+2025-11-19 12:13:39.521 | INFO     | server:websocket_endpoint:210 - [WS] WebSocket already disconnected, nothing to close.
+2025-11-19 12:13:39.643 | INFO     | bot:goodbye_watcher:265 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 12:20:34.414 | INFO     | server:initiate_outbound_call:101 - Received outbound call request
+2025-11-19 12:20:34.414 | INFO     | server:initiate_outbound_call:116 - Processing outbound call to +918919568249, customer_name='Manoj'
+2025-11-19 12:20:34.414 | INFO     | server:make_exotel_call:57 - [EXOTEL] Sending CustomField with customer_name='Manoj'
+2025-11-19 12:20:37.636 | INFO     | server:make_exotel_call:76 - [EXOTEL] Outbound call initiated. Exotel Sid=17d9461c62ebf2a8b1e55182327919bj
+2025-11-19 12:20:37.637 | INFO     | server:initiate_outbound_call:126 - make_exotel_call returned call_sid=17d9461c62ebf2a8b1e55182327919bj
+2025-11-19 12:20:37.637 | INFO     | server:initiate_outbound_call:135 - [CALL_MEMORY] Stored outbound call context for phone=+918919568249, customer_name='Manoj'
+2025-11-19 12:20:41.338 | INFO     | server:websocket_endpoint:164 - WebSocket connection accepted for outbound call
+2025-11-19 12:20:41.341 | INFO     | pipecat:<module>:14 - ᓚᘏᗢ Pipecat 0.0.94 (Python 3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]) ᓚᘏᗢ
+2025-11-19 12:20:41.969 | INFO     | bot:bot:263 - [CALL_MEMORY] Using outbound call context from memory: phone_number='+918919568249', customer_name='Manoj'
+2025-11-19 12:20:42.035 | INFO     | bot:bot:271 - Auto-detected transport: exotel
+2025-11-19 12:20:42.035 | INFO     | bot:bot:272 - Call data from Exotel: {'stream_id': '8df5f624b2950c8e91ba3188365619bj', 'call_id': '718eedcf7e9fb8c23274e1b6250d19bj', 'account_sid': 'purviewservices2', 'from': '07948518655', 'to': '07948518655', 'custom_parameters': ''}
+2025-11-19 12:20:42.083 | INFO     | bot:goodbye_watcher:200 - [WATCHER] Goodbye watcher started.
+2025-11-19 12:20:42.083 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: ''
+2025-11-19 12:20:42.087 | INFO     | bot:on_client_connected:188 - Call connected with customer: Manoj. Waiting for user to speak first...
+2025-11-19 12:20:42.183 | INFO     | pipecat.services.sarvam.stt:_connect:332 - Connected to Sarvam successfully
+2025-11-19 12:20:53.085 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: ''
+2025-11-19 12:20:56.585 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: "Hello!  This is Shruti from Digi Loans.  I'm calling to discuss some loan options with you.  Nice to speak with you, Manoj.  Would you be interested in hearing about our loan options?"
+2025-11-19 12:21:10.087 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: "Hello!  This is Shruti from Digi Loans.  I'm calling to discuss some loan options with you.  Nice to speak with you, Manoj.  Would you be interested in hearing about our loan options?"
+2025-11-19 12:21:11.087 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'Great!  What type of loan are you looking for – personal loan or home loan?'
+2025-11-19 12:21:19.590 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'Great!  What type of loan are you looking for – personal loan or home loan?'
+2025-11-19 12:21:20.590 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'ठीक है।  लगभग कितने का पर्सनल लोन चाहिए?'
+2025-11-19 12:21:28.593 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'ठीक है।  लगभग कितने का पर्सनल लोन चाहिए?'
+2025-11-19 12:21:30.096 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'समझ गई।   आपकी monthly income कितनी है approximately?'
+2025-11-19 12:21:39.100 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'समझ गई।   आपकी monthly income कितनी है approximately?'
+2025-11-19 12:21:40.602 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'I see, thank you.   Are you salaried or self-employed?'
+2025-11-19 12:21:47.104 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'I see, thank you.   Are you salaried or self-employed?'
+2025-11-19 12:21:48.605 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'So you want a personal loan of 2 lakh, income around 45,000 per month, and you are salaried.  Is that correct?'
+2025-11-19 12:21:58.608 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'So you want a personal loan of 2 lakh, income around 45,000 per month, and you are salaried.  Is that correct?'
+2025-11-19 12:21:59.609 | INFO     | bot:goodbye_watcher:219 - [WATCHER] Last assistant message: 'Perfect.   Our team will review your details and call you back with suitable loan options.   Thank you for your time, Manoj.   Goodbye.'
+2025-11-19 12:21:59.609 | INFO     | bot:goodbye_watcher:232 - [WATCHER] GOODBYE_RE matched assistant text.
+2025-11-19 12:21:59.609 | INFO     | bot:goodbye_watcher:235 - [WATCHER] Triggering _do_end with reason=customer_goodbye
+2025-11-19 12:21:59.610 | INFO     | bot:_do_end:154 - [_do_end] Bot is ending call. Reason: customer_goodbye
+2025-11-19 12:22:00.110 | INFO     | bot:_do_end:157 - [_do_end] Queuing EndFrame...
+2025-11-19 12:22:00.111 | INFO     | bot:_do_end:159 - [_do_end] EndFrame queued successfully.
+2025-11-19 12:22:00.111 | INFO     | bot:_do_end:163 - [_do_end] Cancelling PipelineTask...
+2025-11-19 12:22:00.111 | INFO     | bot:_do_end:166 - [_do_end] PipelineTask cancelled.
+2025-11-19 12:22:00.112 | INFO     | bot:goodbye_watcher:245 - [WATCHER] Goodbye watcher exiting (call_ended or pipeline finished).
+2025-11-19 12:22:26.616 | INFO     | bot:run_bot:251 - PipelineRunner finished for this call.
+2025-11-19 12:22:26.616 | INFO     | server:websocket_endpoint:179 - [WS] Finalizing websocket, state=CONNECTED
+2025-11-19 12:22:26.616 | INFO     | server:websocket_endpoint:181 - [WS] WebSocket still open, closing from server side...
+2025-11-19 12:22:26.616 | WARNING  | server:websocket_endpoint:186 - [WS] Error closing WebSocket: Cannot call "send" once a close message has been sent.
